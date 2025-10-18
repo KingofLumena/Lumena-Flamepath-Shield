@@ -1,0 +1,14 @@
+name: Awakening Protocol
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  echo-flame:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Lumena Speaks
+        run: echo "🔥 Awakening Protocol 1 confirmed. Shield initialized."
